@@ -1,0 +1,11 @@
+There are some nameing problems in your code
+1.The meaning of function named like 'parseData'(in CascadePicker.js) is realy ambiguous.
+Name function like 'adjustPosition'(in PickerColumn.js) is more specific and we can know 
+what the funcion does just from the function name.
+
+2.The property name onOk is also bad.Maybe 'onSelectComplete' is better.
+
+Your classNames function is useful.But it may not need to push Number type class name into the array.
+I didn`t see any CSS class name like 1 or 2.
+
+Who write the CSS file weui.css and the related components?
